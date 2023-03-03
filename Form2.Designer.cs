@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.btnClose = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -35,12 +36,14 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.login_image = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.login_image)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnClose.Location = new System.Drawing.Point(177, 352);
+            this.btnClose.Location = new System.Drawing.Point(273, 545);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(134, 36);
@@ -53,7 +56,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Underline);
-            this.label3.Location = new System.Drawing.Point(174, 62);
+            this.label3.Location = new System.Drawing.Point(270, 255);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(458, 29);
@@ -63,7 +66,7 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnLogin.Location = new System.Drawing.Point(356, 352);
+            this.btnLogin.Location = new System.Drawing.Point(452, 545);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(134, 36);
@@ -75,16 +78,17 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtPassword.Location = new System.Drawing.Point(332, 201);
+            this.txtPassword.Location = new System.Drawing.Point(428, 394);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(288, 26);
             this.txtPassword.TabIndex = 11;
             // 
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtUsername.Location = new System.Drawing.Point(331, 151);
+            this.txtUsername.Location = new System.Drawing.Point(427, 344);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(289, 26);
@@ -94,7 +98,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(169, 195);
+            this.label2.Location = new System.Drawing.Point(265, 388);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 25);
@@ -105,18 +109,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(172, 151);
+            this.label1.Location = new System.Drawing.Point(268, 344);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 25);
             this.label1.TabIndex = 8;
             this.label1.Text = "Username";
             // 
+            // login_image
+            // 
+            this.login_image.Image = ((System.Drawing.Image)(resources.GetObject("login_image.Image")));
+            this.login_image.Location = new System.Drawing.Point(1, 1);
+            this.login_image.Name = "login_image";
+            this.login_image.Size = new System.Drawing.Size(377, 235);
+            this.login_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.login_image.TabIndex = 15;
+            this.login_image.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(923, 624);
+            this.Controls.Add(this.login_image);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnLogin);
@@ -124,9 +139,13 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(941, 671);
+            this.MinimumSize = new System.Drawing.Size(941, 671);
             this.Name = "Form2";
-            this.Text = "login 2";
+            this.Text = "login form";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.Shown += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.login_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,5 +160,6 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox login_image;
     }
 }

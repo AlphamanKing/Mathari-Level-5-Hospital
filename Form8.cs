@@ -31,5 +31,17 @@ namespace Mathari_Level_5_Hospital
             this.rooms_TableTableAdapter.Fill(this.mathari_Level_5_HospitalDataSet.Rooms_Table);
 
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            MainForm form11 = (MainForm)Application.OpenForms["MainForm"]; //Get the instance of MainForm
+            form11.Show();
+            this.Close(); //Close the current form
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

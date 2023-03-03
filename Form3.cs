@@ -60,9 +60,9 @@ namespace Mathari_Level_5_Hospital
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            MainForm form11 = new MainForm(); 
-            form11.Show(); 
-            this.Close(); //hide the current form
+            MainForm form11 = (MainForm)Application.OpenForms["MainForm"]; //Get the instance of MainForm
+            form11.Show();
+            this.Close(); //Close the current form
         }
 
         private void button1_Click(object sender, EventArgs e)

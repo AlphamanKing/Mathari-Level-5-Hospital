@@ -169,7 +169,7 @@
             this.employees__TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.employees__TableBindingNavigator.Name = "employees__TableBindingNavigator";
             this.employees__TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employees__TableBindingNavigator.Size = new System.Drawing.Size(651, 27);
+            this.employees__TableBindingNavigator.Size = new System.Drawing.Size(952, 31);
             this.employees__TableBindingNavigator.TabIndex = 0;
             this.employees__TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -179,7 +179,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -315,11 +315,13 @@
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.employees__TableDataGridView.DataSource = this.employees__TableBindingSource;
-            this.employees__TableDataGridView.Location = new System.Drawing.Point(42, 276);
+            this.employees__TableDataGridView.Location = new System.Drawing.Point(0, 276);
+            this.employees__TableDataGridView.MaximumSize = new System.Drawing.Size(952, 220);
+            this.employees__TableDataGridView.MinimumSize = new System.Drawing.Size(952, 220);
             this.employees__TableDataGridView.Name = "employees__TableDataGridView";
             this.employees__TableDataGridView.RowHeadersWidth = 51;
             this.employees__TableDataGridView.RowTemplate.Height = 24;
-            this.employees__TableDataGridView.Size = new System.Drawing.Size(553, 220);
+            this.employees__TableDataGridView.Size = new System.Drawing.Size(952, 220);
             this.employees__TableDataGridView.TabIndex = 9;
             // 
             // dataGridViewTextBoxColumn1
@@ -380,6 +382,7 @@
             this.button1.TabIndex = 18;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnBack
             // 
@@ -390,12 +393,13 @@
             this.btnBack.TabIndex = 17;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(651, 579);
+            this.ClientSize = new System.Drawing.Size(952, 579);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.textBox1);
@@ -410,8 +414,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.employees__TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(669, 626);
-            this.MinimumSize = new System.Drawing.Size(669, 626);
+            this.MaximumSize = new System.Drawing.Size(970, 626);
+            this.MinimumSize = new System.Drawing.Size(970, 626);
             this.Name = "Form5";
             this.Text = "Employee Details";
             this.Load += new System.EventHandler(this.Form5_Load);

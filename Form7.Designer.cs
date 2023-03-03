@@ -169,7 +169,7 @@
             this.pharmacy_Management_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.pharmacy_Management_TableBindingNavigator.Name = "pharmacy_Management_TableBindingNavigator";
             this.pharmacy_Management_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.pharmacy_Management_TableBindingNavigator.Size = new System.Drawing.Size(624, 27);
+            this.pharmacy_Management_TableBindingNavigator.Size = new System.Drawing.Size(1069, 31);
             this.pharmacy_Management_TableBindingNavigator.TabIndex = 0;
             this.pharmacy_Management_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -179,7 +179,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -333,10 +333,12 @@
             this.dataGridViewTextBoxColumn4});
             this.pharmacy_Management_TableDataGridView.DataSource = this.pharmacy_Management_TableBindingSource;
             this.pharmacy_Management_TableDataGridView.Location = new System.Drawing.Point(3, 288);
+            this.pharmacy_Management_TableDataGridView.MaximumSize = new System.Drawing.Size(1054, 220);
+            this.pharmacy_Management_TableDataGridView.MinimumSize = new System.Drawing.Size(1054, 220);
             this.pharmacy_Management_TableDataGridView.Name = "pharmacy_Management_TableDataGridView";
             this.pharmacy_Management_TableDataGridView.RowHeadersWidth = 51;
             this.pharmacy_Management_TableDataGridView.RowTemplate.Height = 24;
-            this.pharmacy_Management_TableDataGridView.Size = new System.Drawing.Size(553, 220);
+            this.pharmacy_Management_TableDataGridView.Size = new System.Drawing.Size(1054, 220);
             this.pharmacy_Management_TableDataGridView.TabIndex = 11;
             // 
             // dataGridViewTextBoxColumn1
@@ -380,6 +382,7 @@
             this.button1.TabIndex = 25;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnBack
             // 
@@ -390,12 +393,13 @@
             this.btnBack.TabIndex = 24;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 596);
+            this.ClientSize = new System.Drawing.Size(1069, 596);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pharmacy_Management_TableDataGridView);
@@ -410,8 +414,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.pharmacy_Management_TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(642, 643);
-            this.MinimumSize = new System.Drawing.Size(642, 643);
+            this.MaximumSize = new System.Drawing.Size(1087, 643);
+            this.MinimumSize = new System.Drawing.Size(1087, 643);
             this.Name = "Form7";
             this.Text = "Pharmacy Management";
             this.Load += new System.EventHandler(this.Form7_Load);

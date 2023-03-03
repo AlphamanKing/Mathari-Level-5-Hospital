@@ -155,7 +155,7 @@
             this.rooms_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.rooms_TableBindingNavigator.Name = "rooms_TableBindingNavigator";
             this.rooms_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.rooms_TableBindingNavigator.Size = new System.Drawing.Size(510, 27);
+            this.rooms_TableBindingNavigator.Size = new System.Drawing.Size(887, 31);
             this.rooms_TableBindingNavigator.TabIndex = 0;
             this.rooms_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -165,7 +165,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -309,10 +309,12 @@
             this.dataGridViewTextBoxColumn3});
             this.rooms_TableDataGridView.DataSource = this.rooms_TableBindingSource;
             this.rooms_TableDataGridView.Location = new System.Drawing.Point(20, 259);
+            this.rooms_TableDataGridView.MaximumSize = new System.Drawing.Size(842, 220);
+            this.rooms_TableDataGridView.MinimumSize = new System.Drawing.Size(842, 220);
             this.rooms_TableDataGridView.Name = "rooms_TableDataGridView";
             this.rooms_TableDataGridView.RowHeadersWidth = 51;
             this.rooms_TableDataGridView.RowTemplate.Height = 24;
-            this.rooms_TableDataGridView.Size = new System.Drawing.Size(431, 220);
+            this.rooms_TableDataGridView.Size = new System.Drawing.Size(842, 220);
             this.rooms_TableDataGridView.TabIndex = 12;
             // 
             // dataGridViewTextBoxColumn1
@@ -348,6 +350,7 @@
             this.button1.TabIndex = 27;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnBack
             // 
@@ -358,12 +361,13 @@
             this.btnBack.TabIndex = 26;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 568);
+            this.ClientSize = new System.Drawing.Size(887, 568);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.rooms_TableDataGridView);
@@ -376,8 +380,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.rooms_TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(528, 615);
-            this.MinimumSize = new System.Drawing.Size(528, 615);
+            this.MaximumSize = new System.Drawing.Size(905, 615);
+            this.MinimumSize = new System.Drawing.Size(905, 615);
             this.Name = "Form8";
             this.Text = "Our Rooms";
             this.Load += new System.EventHandler(this.Form8_Load);

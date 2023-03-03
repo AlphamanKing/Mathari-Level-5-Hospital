@@ -93,9 +93,11 @@ namespace Mathari_Level_5_Hospital
 
         private void btn_Log_out_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(); //create a new instance of Form3
-            form2.Show(); //show Form3
-            this.Hide(); //hide the current form
+            Form2 form2 = new Form2(); //Create a new instance of the Form2 class
+            form2.ClearTextboxes(); //Call ClearTextboxes() on the instance
+            form2.Show(); //Show the login form
+            this.Close(); //Close the current form
         }
+
     }
 }

@@ -183,7 +183,7 @@
             this.supply_Chain_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.supply_Chain_TableBindingNavigator.Name = "supply_Chain_TableBindingNavigator";
             this.supply_Chain_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.supply_Chain_TableBindingNavigator.Size = new System.Drawing.Size(709, 27);
+            this.supply_Chain_TableBindingNavigator.Size = new System.Drawing.Size(1120, 31);
             this.supply_Chain_TableBindingNavigator.TabIndex = 0;
             this.supply_Chain_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -193,7 +193,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -355,6 +355,7 @@
             this.button1.TabIndex = 29;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnBack
             // 
@@ -365,6 +366,7 @@
             this.btnBack.TabIndex = 28;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // supply_Chain_TableDataGridView
             // 
@@ -377,11 +379,13 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.supply_Chain_TableDataGridView.DataSource = this.supply_Chain_TableBindingSource;
-            this.supply_Chain_TableDataGridView.Location = new System.Drawing.Point(17, 343);
+            this.supply_Chain_TableDataGridView.Location = new System.Drawing.Point(8, 340);
+            this.supply_Chain_TableDataGridView.MaximumSize = new System.Drawing.Size(1100, 220);
+            this.supply_Chain_TableDataGridView.MinimumSize = new System.Drawing.Size(1100, 220);
             this.supply_Chain_TableDataGridView.Name = "supply_Chain_TableDataGridView";
             this.supply_Chain_TableDataGridView.RowHeadersWidth = 51;
             this.supply_Chain_TableDataGridView.RowTemplate.Height = 24;
-            this.supply_Chain_TableDataGridView.Size = new System.Drawing.Size(678, 220);
+            this.supply_Chain_TableDataGridView.Size = new System.Drawing.Size(1100, 220);
             this.supply_Chain_TableDataGridView.TabIndex = 29;
             // 
             // dataGridViewTextBoxColumn1
@@ -428,7 +432,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 632);
+            this.ClientSize = new System.Drawing.Size(1120, 632);
             this.Controls.Add(this.supply_Chain_TableDataGridView);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
@@ -445,8 +449,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.supply_Chain_TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(727, 679);
-            this.MinimumSize = new System.Drawing.Size(727, 679);
+            this.MaximumSize = new System.Drawing.Size(1138, 679);
+            this.MinimumSize = new System.Drawing.Size(1138, 679);
             this.Name = "Form9";
             this.Text = "Supply Chain Management";
             this.Load += new System.EventHandler(this.Form9_Load);

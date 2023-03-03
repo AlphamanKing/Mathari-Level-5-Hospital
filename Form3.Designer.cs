@@ -187,7 +187,7 @@
             this.billing_and_Accounting_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.billing_and_Accounting_TableBindingNavigator.Name = "billing_and_Accounting_TableBindingNavigator";
             this.billing_and_Accounting_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.billing_and_Accounting_TableBindingNavigator.Size = new System.Drawing.Size(745, 27);
+            this.billing_and_Accounting_TableBindingNavigator.Size = new System.Drawing.Size(1253, 31);
             this.billing_and_Accounting_TableBindingNavigator.TabIndex = 0;
             this.billing_and_Accounting_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -197,7 +197,7 @@
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.RightToLeftAutoMirrorImage = true;
-            this.btnAdd.Size = new System.Drawing.Size(29, 24);
+            this.btnAdd.Size = new System.Drawing.Size(29, 28);
             this.btnAdd.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -353,10 +353,12 @@
             this.dataGridViewTextBoxColumn5});
             this.billing_and_Accounting_TableDataGridView.DataSource = this.billing_and_Accounting_TableBindingSource;
             this.billing_and_Accounting_TableDataGridView.Location = new System.Drawing.Point(0, 402);
+            this.billing_and_Accounting_TableDataGridView.MaximumSize = new System.Drawing.Size(1253, 220);
+            this.billing_and_Accounting_TableDataGridView.MinimumSize = new System.Drawing.Size(1253, 220);
             this.billing_and_Accounting_TableDataGridView.Name = "billing_and_Accounting_TableDataGridView";
             this.billing_and_Accounting_TableDataGridView.RowHeadersWidth = 51;
             this.billing_and_Accounting_TableDataGridView.RowTemplate.Height = 24;
-            this.billing_and_Accounting_TableDataGridView.Size = new System.Drawing.Size(679, 220);
+            this.billing_and_Accounting_TableDataGridView.Size = new System.Drawing.Size(1253, 220);
             this.billing_and_Accounting_TableDataGridView.TabIndex = 11;
             // 
             // dataGridViewTextBoxColumn1
@@ -443,7 +445,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 683);
+            this.ClientSize = new System.Drawing.Size(1253, 683);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.textBox1);
@@ -460,8 +462,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.billing_and_Accounting_TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(763, 730);
-            this.MinimumSize = new System.Drawing.Size(763, 730);
+            this.MaximumSize = new System.Drawing.Size(1271, 730);
+            this.MinimumSize = new System.Drawing.Size(1271, 730);
             this.Name = "Form3";
             this.Text = "Billing and Accounting";
             this.Load += new System.EventHandler(this.Form3_Load);

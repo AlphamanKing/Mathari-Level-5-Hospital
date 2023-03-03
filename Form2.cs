@@ -84,5 +84,12 @@ namespace Mathari_Level_5_Hospital
         {
 
         }
+
+        public void ClearTextboxes()
+        {
+            txtUsername.Text = "";
+            txtPassword.Text = "";
+        }
+
     }
 }

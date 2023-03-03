@@ -155,7 +155,7 @@
             this.wards_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.wards_TableBindingNavigator.Name = "wards_TableBindingNavigator";
             this.wards_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.wards_TableBindingNavigator.Size = new System.Drawing.Size(488, 27);
+            this.wards_TableBindingNavigator.Size = new System.Drawing.Size(909, 31);
             this.wards_TableBindingNavigator.TabIndex = 0;
             this.wards_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -165,7 +165,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -309,10 +309,12 @@
             this.dataGridViewTextBoxColumn3});
             this.wards_TableDataGridView.DataSource = this.wards_TableBindingSource;
             this.wards_TableDataGridView.Location = new System.Drawing.Point(12, 252);
+            this.wards_TableDataGridView.MaximumSize = new System.Drawing.Size(788, 220);
+            this.wards_TableDataGridView.MinimumSize = new System.Drawing.Size(788, 220);
             this.wards_TableDataGridView.Name = "wards_TableDataGridView";
             this.wards_TableDataGridView.RowHeadersWidth = 51;
             this.wards_TableDataGridView.RowTemplate.Height = 24;
-            this.wards_TableDataGridView.Size = new System.Drawing.Size(431, 220);
+            this.wards_TableDataGridView.Size = new System.Drawing.Size(788, 220);
             this.wards_TableDataGridView.TabIndex = 16;
             // 
             // dataGridViewTextBoxColumn1
@@ -348,6 +350,7 @@
             this.button1.TabIndex = 31;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnBack
             // 
@@ -358,12 +361,13 @@
             this.btnBack.TabIndex = 30;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 556);
+            this.ClientSize = new System.Drawing.Size(909, 556);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.wards_TableDataGridView);
@@ -376,8 +380,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.wards_TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(506, 603);
-            this.MinimumSize = new System.Drawing.Size(506, 603);
+            this.MaximumSize = new System.Drawing.Size(927, 603);
+            this.MinimumSize = new System.Drawing.Size(927, 603);
             this.Name = "Form10";
             this.Text = "Our Wards";
             this.Load += new System.EventHandler(this.Form10_Load);

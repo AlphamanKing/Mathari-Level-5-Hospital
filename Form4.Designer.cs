@@ -155,7 +155,7 @@
             this.departments_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.departments_TableBindingNavigator.Name = "departments_TableBindingNavigator";
             this.departments_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.departments_TableBindingNavigator.Size = new System.Drawing.Size(624, 27);
+            this.departments_TableBindingNavigator.Size = new System.Drawing.Size(870, 31);
             this.departments_TableBindingNavigator.TabIndex = 0;
             this.departments_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -165,7 +165,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -290,11 +290,13 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3});
             this.departments_TableDataGridView.DataSource = this.departments_TableBindingSource;
-            this.departments_TableDataGridView.Location = new System.Drawing.Point(70, 265);
+            this.departments_TableDataGridView.Location = new System.Drawing.Point(0, 268);
+            this.departments_TableDataGridView.MaximumSize = new System.Drawing.Size(858, 220);
+            this.departments_TableDataGridView.MinimumSize = new System.Drawing.Size(858, 220);
             this.departments_TableDataGridView.Name = "departments_TableDataGridView";
             this.departments_TableDataGridView.RowHeadersWidth = 51;
             this.departments_TableDataGridView.RowTemplate.Height = 24;
-            this.departments_TableDataGridView.Size = new System.Drawing.Size(431, 220);
+            this.departments_TableDataGridView.Size = new System.Drawing.Size(858, 220);
             this.departments_TableDataGridView.TabIndex = 7;
             // 
             // dataGridViewTextBoxColumn1
@@ -348,6 +350,7 @@
             this.btnBack.TabIndex = 15;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // button1
             // 
@@ -364,7 +367,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 558);
+            this.ClientSize = new System.Drawing.Size(870, 558);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.textBox1);
@@ -377,8 +380,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.departments_TableBindingNavigator);
-            this.MaximumSize = new System.Drawing.Size(642, 605);
-            this.MinimumSize = new System.Drawing.Size(642, 605);
+            this.MaximumSize = new System.Drawing.Size(888, 605);
+            this.MinimumSize = new System.Drawing.Size(888, 605);
             this.Name = "Form4";
             this.Text = "Our Departments";
             this.Load += new System.EventHandler(this.Form4_Load);
