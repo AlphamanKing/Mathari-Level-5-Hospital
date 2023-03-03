@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Mathari_Level_5_Hospital
+{
+    public partial class Form5 : Form
+    {
+        public Form5()
+        {
+            InitializeComponent();
+        }
+
+        private void employees__TableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.employees__TableBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.mathari_Level_5_HospitalDataSet);
+
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'mathari_Level_5_HospitalDataSet._Employees__Table' table. You can move, or remove it, as needed.
+            this.employees__TableTableAdapter.Fill(this.mathari_Level_5_HospitalDataSet._Employees__Table);
+
+        }
+
+        private void employee_NameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
