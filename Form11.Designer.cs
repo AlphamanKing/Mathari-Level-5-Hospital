@@ -51,101 +51,110 @@
             // 
             // btnOur_wards
             // 
+            this.btnOur_wards.BackColor = System.Drawing.Color.OldLace;
             this.btnOur_wards.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOur_wards.Location = new System.Drawing.Point(597, 500);
             this.btnOur_wards.Name = "btnOur_wards";
             this.btnOur_wards.Size = new System.Drawing.Size(144, 29);
             this.btnOur_wards.TabIndex = 38;
             this.btnOur_wards.Text = "Navigate";
-            this.btnOur_wards.UseVisualStyleBackColor = true;
+            this.btnOur_wards.UseVisualStyleBackColor = false;
             this.btnOur_wards.Click += new System.EventHandler(this.btnOur_wards_Click);
             // 
             // btnSupply_chain_management
             // 
+            this.btnSupply_chain_management.BackColor = System.Drawing.Color.OldLace;
             this.btnSupply_chain_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSupply_chain_management.Location = new System.Drawing.Point(597, 448);
             this.btnSupply_chain_management.Name = "btnSupply_chain_management";
             this.btnSupply_chain_management.Size = new System.Drawing.Size(144, 29);
             this.btnSupply_chain_management.TabIndex = 37;
             this.btnSupply_chain_management.Text = "Navigate";
-            this.btnSupply_chain_management.UseVisualStyleBackColor = true;
+            this.btnSupply_chain_management.UseVisualStyleBackColor = false;
             this.btnSupply_chain_management.Click += new System.EventHandler(this.btnSupply_chain_management_Click);
             // 
             // btnOur_rooms
             // 
+            this.btnOur_rooms.BackColor = System.Drawing.Color.OldLace;
             this.btnOur_rooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOur_rooms.Location = new System.Drawing.Point(597, 394);
             this.btnOur_rooms.Name = "btnOur_rooms";
             this.btnOur_rooms.Size = new System.Drawing.Size(144, 29);
             this.btnOur_rooms.TabIndex = 36;
             this.btnOur_rooms.Text = "Navigate";
-            this.btnOur_rooms.UseVisualStyleBackColor = true;
+            this.btnOur_rooms.UseVisualStyleBackColor = false;
             this.btnOur_rooms.Click += new System.EventHandler(this.btnOur_rooms_Click);
             // 
             // btnPharmacy_management
             // 
+            this.btnPharmacy_management.BackColor = System.Drawing.Color.OldLace;
             this.btnPharmacy_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPharmacy_management.Location = new System.Drawing.Point(597, 343);
             this.btnPharmacy_management.Name = "btnPharmacy_management";
             this.btnPharmacy_management.Size = new System.Drawing.Size(144, 29);
             this.btnPharmacy_management.TabIndex = 35;
             this.btnPharmacy_management.Text = "Navigate";
-            this.btnPharmacy_management.UseVisualStyleBackColor = true;
+            this.btnPharmacy_management.UseVisualStyleBackColor = false;
             this.btnPharmacy_management.Click += new System.EventHandler(this.btnPharmacy_management_Click);
             // 
             // btnPatient_Details
             // 
+            this.btnPatient_Details.BackColor = System.Drawing.Color.OldLace;
             this.btnPatient_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPatient_Details.Location = new System.Drawing.Point(597, 280);
             this.btnPatient_Details.Name = "btnPatient_Details";
             this.btnPatient_Details.Size = new System.Drawing.Size(144, 29);
             this.btnPatient_Details.TabIndex = 34;
             this.btnPatient_Details.Text = "Navigate";
-            this.btnPatient_Details.UseVisualStyleBackColor = true;
+            this.btnPatient_Details.UseVisualStyleBackColor = false;
             this.btnPatient_Details.Click += new System.EventHandler(this.btnPatient_Details_Click);
             // 
             // btnEmployeeDetails
             // 
+            this.btnEmployeeDetails.BackColor = System.Drawing.Color.OldLace;
             this.btnEmployeeDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmployeeDetails.Location = new System.Drawing.Point(597, 221);
             this.btnEmployeeDetails.Name = "btnEmployeeDetails";
             this.btnEmployeeDetails.Size = new System.Drawing.Size(144, 29);
             this.btnEmployeeDetails.TabIndex = 33;
             this.btnEmployeeDetails.Text = "Navigate";
-            this.btnEmployeeDetails.UseVisualStyleBackColor = true;
+            this.btnEmployeeDetails.UseVisualStyleBackColor = false;
             this.btnEmployeeDetails.Click += new System.EventHandler(this.btnEmployeeDetails_Click);
             // 
             // btnOur_Departments
             // 
+            this.btnOur_Departments.BackColor = System.Drawing.Color.OldLace;
             this.btnOur_Departments.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOur_Departments.Location = new System.Drawing.Point(597, 166);
             this.btnOur_Departments.Name = "btnOur_Departments";
             this.btnOur_Departments.Size = new System.Drawing.Size(144, 29);
             this.btnOur_Departments.TabIndex = 32;
             this.btnOur_Departments.Text = "Navigate";
-            this.btnOur_Departments.UseVisualStyleBackColor = true;
+            this.btnOur_Departments.UseVisualStyleBackColor = false;
             this.btnOur_Departments.Click += new System.EventHandler(this.btnOur_Departments_Click);
             // 
             // btnBilling_and_accounting
             // 
+            this.btnBilling_and_accounting.BackColor = System.Drawing.Color.OldLace;
             this.btnBilling_and_accounting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBilling_and_accounting.Location = new System.Drawing.Point(597, 109);
             this.btnBilling_and_accounting.Name = "btnBilling_and_accounting";
             this.btnBilling_and_accounting.Size = new System.Drawing.Size(144, 29);
             this.btnBilling_and_accounting.TabIndex = 31;
             this.btnBilling_and_accounting.Text = "Navigate";
-            this.btnBilling_and_accounting.UseVisualStyleBackColor = true;
+            this.btnBilling_and_accounting.UseVisualStyleBackColor = false;
             this.btnBilling_and_accounting.Click += new System.EventHandler(this.btnBilling_and_accounting_Click);
             // 
             // btn_Log_out
             // 
+            this.btn_Log_out.BackColor = System.Drawing.Color.Violet;
             this.btn_Log_out.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btn_Log_out.Location = new System.Drawing.Point(503, 579);
+            this.btn_Log_out.Location = new System.Drawing.Point(500, 635);
             this.btn_Log_out.Name = "btn_Log_out";
-            this.btn_Log_out.Size = new System.Drawing.Size(164, 32);
+            this.btn_Log_out.Size = new System.Drawing.Size(164, 36);
             this.btn_Log_out.TabIndex = 30;
             this.btn_Log_out.Text = "LOG OUT";
-            this.btn_Log_out.UseVisualStyleBackColor = true;
+            this.btn_Log_out.UseVisualStyleBackColor = false;
             this.btn_Log_out.Click += new System.EventHandler(this.btn_Log_out_Click);
             // 
             // label9
@@ -249,20 +258,22 @@
             // 
             // btnClose
             // 
+            this.btnClose.BackColor = System.Drawing.Color.Violet;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnClose.Location = new System.Drawing.Point(238, 575);
+            this.btnClose.Location = new System.Drawing.Point(212, 635);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(134, 36);
+            this.btnClose.Size = new System.Drawing.Size(146, 36);
             this.btnClose.TabIndex = 39;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(941, 674);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOur_wards);

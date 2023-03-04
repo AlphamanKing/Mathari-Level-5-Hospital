@@ -106,6 +106,9 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mathari_Level_5_HospitalDataSet.cs">
+      <DependentUpon>Mathari_Level_5_HospitalDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Mathari_Level_5_HospitalDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

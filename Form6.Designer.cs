@@ -244,7 +244,7 @@
             this.patient_s_TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.patient_s_TableBindingNavigator.Name = "patient_s_TableBindingNavigator";
             this.patient_s_TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.patient_s_TableBindingNavigator.Size = new System.Drawing.Size(1386, 31);
+            this.patient_s_TableBindingNavigator.Size = new System.Drawing.Size(1386, 27);
             this.patient_s_TableBindingNavigator.TabIndex = 0;
             this.patient_s_TableBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -254,7 +254,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -543,30 +543,33 @@
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.Violet;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnBack.Location = new System.Drawing.Point(127, 585);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(89, 42);
             this.btnBack.TabIndex = 22;
             this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Violet;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button1.Location = new System.Drawing.Point(458, 585);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 42);
             this.button1.TabIndex = 23;
             this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1386, 631);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);

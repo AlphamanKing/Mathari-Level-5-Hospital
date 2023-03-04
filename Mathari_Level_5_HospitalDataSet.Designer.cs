@@ -644,10 +644,10 @@ namespace Mathari_Level_5_Hospital {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public Billing_and_Accounting_TableRow AddBilling_and_Accounting_TableRow(int ID, string Transaction_name, string Transaction_type, decimal Amount, System.DateTime Transaction_Date) {
+            public Billing_and_Accounting_TableRow AddBilling_and_Accounting_TableRow(string Transaction_name, string Transaction_type, decimal Amount, System.DateTime Transaction_Date) {
                 Billing_and_Accounting_TableRow rowBilling_and_Accounting_TableRow = ((Billing_and_Accounting_TableRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        ID,
+                        null,
                         Transaction_name,
                         Transaction_type,
                         Amount,
@@ -703,6 +703,8 @@ namespace Mathari_Level_5_Hospital {
                 base.Columns.Add(this.columnTransaction_Date);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
+                this.columnID.AutoIncrement = true;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnTransaction_name.MaxLength = 255;
@@ -940,10 +942,10 @@ namespace Mathari_Level_5_Hospital {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public Departments_TableRow AddDepartments_TableRow(int ID, string Department_Name, string Head_of_Department) {
+            public Departments_TableRow AddDepartments_TableRow(string Department_Name, string Head_of_Department) {
                 Departments_TableRow rowDepartments_TableRow = ((Departments_TableRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        ID,
+                        null,
                         Department_Name,
                         Head_of_Department};
                 rowDepartments_TableRow.ItemArray = columnValuesArray;
@@ -991,6 +993,8 @@ namespace Mathari_Level_5_Hospital {
                 base.Columns.Add(this.columnHead_of_Department);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
+                this.columnID.AutoIncrement = true;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnDepartment_Name.MaxLength = 255;
@@ -1294,8 +1298,7 @@ namespace Mathari_Level_5_Hospital {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
-                this.columnID.AutoIncrementSeed = -1;
-                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnEmployee_Name.MaxLength = 255;
@@ -1677,8 +1680,7 @@ namespace Mathari_Level_5_Hospital {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
-                this.columnID.AutoIncrementSeed = -1;
-                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this._columnpatient_s_Name.MaxLength = 255;
@@ -1988,8 +1990,7 @@ namespace Mathari_Level_5_Hospital {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
-                this.columnID.AutoIncrementSeed = -1;
-                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnDrug_Name.MaxLength = 255;
@@ -2280,8 +2281,7 @@ namespace Mathari_Level_5_Hospital {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
-                this.columnID.AutoIncrementSeed = -1;
-                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnRoom_Name.MaxLength = 255;
@@ -2598,8 +2598,7 @@ namespace Mathari_Level_5_Hospital {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
-                this.columnID.AutoIncrementSeed = -1;
-                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnSupplier_Name.MaxLength = 255;
@@ -2890,8 +2889,7 @@ namespace Mathari_Level_5_Hospital {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
-                this.columnID.AutoIncrementSeed = -1;
-                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AutoIncrementSeed = 1;
                 this.columnID.AllowDBNull = false;
                 this.columnID.Unique = true;
                 this.columnNumber.MaxLength = 255;
