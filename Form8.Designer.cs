@@ -258,7 +258,7 @@
             // 
             this.iDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.rooms_TableBindingSource, "ID", true));
             this.iDTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.iDTextBox.Location = new System.Drawing.Point(141, 62);
+            this.iDTextBox.Location = new System.Drawing.Point(153, 62);
             this.iDTextBox.Name = "iDTextBox";
             this.iDTextBox.Size = new System.Drawing.Size(288, 30);
             this.iDTextBox.TabIndex = 2;
@@ -267,7 +267,7 @@
             // 
             this.room_NameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.rooms_TableBindingSource, "Room Name", true));
             this.room_NameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.room_NameTextBox.Location = new System.Drawing.Point(141, 106);
+            this.room_NameTextBox.Location = new System.Drawing.Point(153, 106);
             this.room_NameTextBox.Name = "room_NameTextBox";
             this.room_NameTextBox.Size = new System.Drawing.Size(288, 30);
             this.room_NameTextBox.TabIndex = 4;
@@ -276,7 +276,7 @@
             // 
             this.capacityTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.rooms_TableBindingSource, "Capacity", true));
             this.capacityTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.capacityTextBox.Location = new System.Drawing.Point(141, 150);
+            this.capacityTextBox.Location = new System.Drawing.Point(153, 150);
             this.capacityTextBox.Name = "capacityTextBox";
             this.capacityTextBox.Size = new System.Drawing.Size(288, 30);
             this.capacityTextBox.TabIndex = 6;
@@ -343,9 +343,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Violet;
+            this.button1.BackColor = System.Drawing.Color.Cornsilk;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(294, 498);
+            this.button1.Location = new System.Drawing.Point(294, 507);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 42);
             this.button1.TabIndex = 27;
@@ -355,7 +355,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.Violet;
+            this.btnBack.BackColor = System.Drawing.Color.Cornsilk;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnBack.Location = new System.Drawing.Point(20, 507);
             this.btnBack.Name = "btnBack";

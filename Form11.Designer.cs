@@ -51,11 +51,11 @@
             // 
             // btnOur_wards
             // 
-            this.btnOur_wards.BackColor = System.Drawing.Color.OldLace;
-            this.btnOur_wards.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOur_wards.Location = new System.Drawing.Point(597, 500);
+            this.btnOur_wards.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnOur_wards.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOur_wards.Location = new System.Drawing.Point(594, 499);
             this.btnOur_wards.Name = "btnOur_wards";
-            this.btnOur_wards.Size = new System.Drawing.Size(144, 29);
+            this.btnOur_wards.Size = new System.Drawing.Size(158, 38);
             this.btnOur_wards.TabIndex = 38;
             this.btnOur_wards.Text = "Navigate";
             this.btnOur_wards.UseVisualStyleBackColor = false;
@@ -63,11 +63,11 @@
             // 
             // btnSupply_chain_management
             // 
-            this.btnSupply_chain_management.BackColor = System.Drawing.Color.OldLace;
-            this.btnSupply_chain_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSupply_chain_management.Location = new System.Drawing.Point(597, 448);
+            this.btnSupply_chain_management.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnSupply_chain_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupply_chain_management.Location = new System.Drawing.Point(594, 447);
             this.btnSupply_chain_management.Name = "btnSupply_chain_management";
-            this.btnSupply_chain_management.Size = new System.Drawing.Size(144, 29);
+            this.btnSupply_chain_management.Size = new System.Drawing.Size(158, 38);
             this.btnSupply_chain_management.TabIndex = 37;
             this.btnSupply_chain_management.Text = "Navigate";
             this.btnSupply_chain_management.UseVisualStyleBackColor = false;
@@ -75,11 +75,11 @@
             // 
             // btnOur_rooms
             // 
-            this.btnOur_rooms.BackColor = System.Drawing.Color.OldLace;
-            this.btnOur_rooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOur_rooms.Location = new System.Drawing.Point(597, 394);
+            this.btnOur_rooms.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnOur_rooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOur_rooms.Location = new System.Drawing.Point(594, 393);
             this.btnOur_rooms.Name = "btnOur_rooms";
-            this.btnOur_rooms.Size = new System.Drawing.Size(144, 29);
+            this.btnOur_rooms.Size = new System.Drawing.Size(158, 38);
             this.btnOur_rooms.TabIndex = 36;
             this.btnOur_rooms.Text = "Navigate";
             this.btnOur_rooms.UseVisualStyleBackColor = false;
@@ -87,11 +87,11 @@
             // 
             // btnPharmacy_management
             // 
-            this.btnPharmacy_management.BackColor = System.Drawing.Color.OldLace;
-            this.btnPharmacy_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPharmacy_management.Location = new System.Drawing.Point(597, 343);
+            this.btnPharmacy_management.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnPharmacy_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPharmacy_management.Location = new System.Drawing.Point(594, 342);
             this.btnPharmacy_management.Name = "btnPharmacy_management";
-            this.btnPharmacy_management.Size = new System.Drawing.Size(144, 29);
+            this.btnPharmacy_management.Size = new System.Drawing.Size(158, 38);
             this.btnPharmacy_management.TabIndex = 35;
             this.btnPharmacy_management.Text = "Navigate";
             this.btnPharmacy_management.UseVisualStyleBackColor = false;
@@ -99,11 +99,11 @@
             // 
             // btnPatient_Details
             // 
-            this.btnPatient_Details.BackColor = System.Drawing.Color.OldLace;
-            this.btnPatient_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPatient_Details.Location = new System.Drawing.Point(597, 280);
+            this.btnPatient_Details.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnPatient_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatient_Details.Location = new System.Drawing.Point(594, 279);
             this.btnPatient_Details.Name = "btnPatient_Details";
-            this.btnPatient_Details.Size = new System.Drawing.Size(144, 29);
+            this.btnPatient_Details.Size = new System.Drawing.Size(158, 38);
             this.btnPatient_Details.TabIndex = 34;
             this.btnPatient_Details.Text = "Navigate";
             this.btnPatient_Details.UseVisualStyleBackColor = false;
@@ -111,11 +111,11 @@
             // 
             // btnEmployeeDetails
             // 
-            this.btnEmployeeDetails.BackColor = System.Drawing.Color.OldLace;
-            this.btnEmployeeDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmployeeDetails.Location = new System.Drawing.Point(597, 221);
+            this.btnEmployeeDetails.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnEmployeeDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployeeDetails.Location = new System.Drawing.Point(594, 220);
             this.btnEmployeeDetails.Name = "btnEmployeeDetails";
-            this.btnEmployeeDetails.Size = new System.Drawing.Size(144, 29);
+            this.btnEmployeeDetails.Size = new System.Drawing.Size(158, 38);
             this.btnEmployeeDetails.TabIndex = 33;
             this.btnEmployeeDetails.Text = "Navigate";
             this.btnEmployeeDetails.UseVisualStyleBackColor = false;
@@ -123,11 +123,11 @@
             // 
             // btnOur_Departments
             // 
-            this.btnOur_Departments.BackColor = System.Drawing.Color.OldLace;
-            this.btnOur_Departments.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOur_Departments.Location = new System.Drawing.Point(597, 166);
+            this.btnOur_Departments.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnOur_Departments.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOur_Departments.Location = new System.Drawing.Point(594, 165);
             this.btnOur_Departments.Name = "btnOur_Departments";
-            this.btnOur_Departments.Size = new System.Drawing.Size(144, 29);
+            this.btnOur_Departments.Size = new System.Drawing.Size(158, 38);
             this.btnOur_Departments.TabIndex = 32;
             this.btnOur_Departments.Text = "Navigate";
             this.btnOur_Departments.UseVisualStyleBackColor = false;
@@ -135,11 +135,11 @@
             // 
             // btnBilling_and_accounting
             // 
-            this.btnBilling_and_accounting.BackColor = System.Drawing.Color.OldLace;
-            this.btnBilling_and_accounting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBilling_and_accounting.Location = new System.Drawing.Point(597, 109);
+            this.btnBilling_and_accounting.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnBilling_and_accounting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBilling_and_accounting.Location = new System.Drawing.Point(594, 108);
             this.btnBilling_and_accounting.Name = "btnBilling_and_accounting";
-            this.btnBilling_and_accounting.Size = new System.Drawing.Size(144, 29);
+            this.btnBilling_and_accounting.Size = new System.Drawing.Size(158, 38);
             this.btnBilling_and_accounting.TabIndex = 31;
             this.btnBilling_and_accounting.Text = "Navigate";
             this.btnBilling_and_accounting.UseVisualStyleBackColor = false;
@@ -147,7 +147,7 @@
             // 
             // btn_Log_out
             // 
-            this.btn_Log_out.BackColor = System.Drawing.Color.Violet;
+            this.btn_Log_out.BackColor = System.Drawing.Color.Cornsilk;
             this.btn_Log_out.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Log_out.Location = new System.Drawing.Point(500, 635);
             this.btn_Log_out.Name = "btn_Log_out";
@@ -160,105 +160,123 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.Color.Crimson;
             this.label9.Location = new System.Drawing.Point(207, 504);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(144, 25);
+            this.label9.Size = new System.Drawing.Size(159, 26);
             this.label9.TabIndex = 28;
             this.label9.Text = "OUR WARDS";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Location = new System.Drawing.Point(206, 452);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(329, 25);
+            this.label8.Size = new System.Drawing.Size(362, 26);
             this.label8.TabIndex = 27;
             this.label8.Text = "SUPPLY CHAIN MANAGEMENT";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Crimson;
             this.label7.Location = new System.Drawing.Point(206, 398);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(145, 25);
+            this.label7.Size = new System.Drawing.Size(159, 26);
             this.label7.TabIndex = 26;
             this.label7.Text = "OUR ROOMS";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.Crimson;
             this.label6.Location = new System.Drawing.Point(205, 343);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(293, 25);
+            this.label6.Size = new System.Drawing.Size(321, 26);
             this.label6.TabIndex = 25;
             this.label6.Text = "PHARMACY MANAGEMENT";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.Crimson;
             this.label5.Location = new System.Drawing.Point(206, 284);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(216, 25);
+            this.label5.Size = new System.Drawing.Size(231, 26);
             this.label5.TabIndex = 24;
             this.label5.Text = "PATIENTS DETAILS";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Location = new System.Drawing.Point(206, 225);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(226, 25);
+            this.label4.Size = new System.Drawing.Size(248, 26);
             this.label4.TabIndex = 23;
             this.label4.Text = "EMPLOYEE DETAILS";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.Crimson;
             this.label3.Location = new System.Drawing.Point(205, 166);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(226, 25);
+            this.label3.Size = new System.Drawing.Size(247, 26);
             this.label3.TabIndex = 22;
             this.label3.Text = "OUR DEPARTMENTS";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Location = new System.Drawing.Point(205, 113);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(301, 25);
+            this.label2.Size = new System.Drawing.Size(331, 26);
             this.label2.TabIndex = 21;
             this.label2.Text = "BILLING AND ACCOUNTING ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(156, 57);
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(154, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(621, 36);
+            this.label1.Size = new System.Drawing.Size(676, 50);
             this.label1.TabIndex = 20;
             this.label1.Text = "WELCOME TO MATHARI LEVEL 5 HOSPITAL";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.Violet;
+            this.btnClose.BackColor = System.Drawing.Color.Cornsilk;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnClose.Location = new System.Drawing.Point(212, 635);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);

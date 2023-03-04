@@ -421,7 +421,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.Violet;
+            this.btnBack.BackColor = System.Drawing.Color.Cornsilk;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnBack.Location = new System.Drawing.Point(90, 629);
             this.btnBack.Name = "btnBack";
@@ -433,7 +433,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Violet;
+            this.button1.BackColor = System.Drawing.Color.Cornsilk;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button1.Location = new System.Drawing.Point(396, 629);
             this.button1.Name = "button1";

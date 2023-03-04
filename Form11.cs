@@ -99,5 +99,9 @@ namespace Mathari_Level_5_Hospital
             this.Close(); //Close the current form
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
