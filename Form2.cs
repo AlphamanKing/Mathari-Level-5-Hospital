@@ -60,7 +60,7 @@ namespace Mathari_Level_5_Hospital
                         adapter.Fill(dt);
                     }
 
-                    if (dt.Rows.Count > 0 && dt.Rows[0]["isAdmin"].ToString().Equals("True", StringComparison.OrdinalIgnoreCase))
+                    if (dt.Rows.Count > 0 && dt.Rows[0]["isAdmin"].ToString().Equals("Yes", StringComparison.OrdinalIgnoreCase))
                     {
                         isAdmin = true;
                     }
