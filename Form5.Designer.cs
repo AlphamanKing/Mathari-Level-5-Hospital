@@ -39,9 +39,9 @@
             this.employees__TableTableAdapter = new Mathari_Level_5_Hospital.Mathari_Level_5_HospitalDataSetTableAdapters.Employees__TableTableAdapter();
             this.tableAdapterManager = new Mathari_Level_5_Hospital.Mathari_Level_5_HospitalDataSetTableAdapters.TableAdapterManager();
             this.employees__TableBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.btnAdd = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.btnDelete = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -50,7 +50,7 @@
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.employees__TableBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.btnSave = new System.Windows.Forms.ToolStripButton();
             this.iDTextBox = new System.Windows.Forms.TextBox();
             this.employee_NameTextBox = new System.Windows.Forms.TextBox();
             this.designationTextBox = new System.Windows.Forms.TextBox();
@@ -144,10 +144,10 @@
             // 
             // employees__TableBindingNavigator
             // 
-            this.employees__TableBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.employees__TableBindingNavigator.AddNewItem = this.btnAdd;
             this.employees__TableBindingNavigator.BindingSource = this.employees__TableBindingSource;
             this.employees__TableBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.employees__TableBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.employees__TableBindingNavigator.DeleteItem = this.btnDelete;
             this.employees__TableBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.employees__TableBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
@@ -159,9 +159,9 @@
             this.bindingNavigatorMoveNextItem,
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.employees__TableBindingNavigatorSaveItem});
+            this.btnAdd,
+            this.btnDelete,
+            this.btnSave});
             this.employees__TableBindingNavigator.Location = new System.Drawing.Point(0, 0);
             this.employees__TableBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.employees__TableBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -169,34 +169,34 @@
             this.employees__TableBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.employees__TableBindingNavigator.Name = "employees__TableBindingNavigator";
             this.employees__TableBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.employees__TableBindingNavigator.Size = new System.Drawing.Size(952, 27);
+            this.employees__TableBindingNavigator.Size = new System.Drawing.Size(952, 31);
             this.employees__TableBindingNavigator.TabIndex = 0;
             this.employees__TableBindingNavigator.Text = "bindingNavigator1";
             // 
-            // bindingNavigatorAddNewItem
+            // btnAdd
             // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
+            this.btnAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.RightToLeftAutoMirrorImage = true;
+            this.btnAdd.Size = new System.Drawing.Size(29, 28);
+            this.btnAdd.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 28);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
-            // bindingNavigatorDeleteItem
+            // btnDelete
             // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
+            this.btnDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.RightToLeftAutoMirrorImage = true;
+            this.btnDelete.Size = new System.Drawing.Size(29, 28);
+            this.btnDelete.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -204,7 +204,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -213,13 +213,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -234,7 +234,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -242,7 +242,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -251,22 +251,22 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
-            // employees__TableBindingNavigatorSaveItem
+            // btnSave
             // 
-            this.employees__TableBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.employees__TableBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("employees__TableBindingNavigatorSaveItem.Image")));
-            this.employees__TableBindingNavigatorSaveItem.Name = "employees__TableBindingNavigatorSaveItem";
-            this.employees__TableBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
-            this.employees__TableBindingNavigatorSaveItem.Text = "Save Data";
-            this.employees__TableBindingNavigatorSaveItem.Click += new System.EventHandler(this.employees__TableBindingNavigatorSaveItem_Click);
+            this.btnSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(29, 28);
+            this.btnSave.Text = "Save Data";
+            this.btnSave.Click += new System.EventHandler(this.employees__TableBindingNavigatorSaveItem_Click);
             // 
             // iDTextBox
             // 
@@ -441,9 +441,9 @@
         private Mathari_Level_5_HospitalDataSetTableAdapters.Employees__TableTableAdapter employees__TableTableAdapter;
         private Mathari_Level_5_HospitalDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.BindingNavigator employees__TableBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
+        private System.Windows.Forms.ToolStripButton btnAdd;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
+        private System.Windows.Forms.ToolStripButton btnDelete;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
@@ -452,7 +452,7 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton employees__TableBindingNavigatorSaveItem;
+        private System.Windows.Forms.ToolStripButton btnSave;
         private System.Windows.Forms.TextBox iDTextBox;
         private System.Windows.Forms.TextBox employee_NameTextBox;
         private System.Windows.Forms.TextBox designationTextBox;

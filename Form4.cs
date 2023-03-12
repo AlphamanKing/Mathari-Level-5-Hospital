@@ -12,6 +12,17 @@ namespace Mathari_Level_5_Hospital
 {
     public partial class Form4 : Form
     {
+        private bool isAdmin;
+
+        public Form4(bool isAdmin)
+        {
+            InitializeComponent();
+            this.isAdmin = isAdmin;
+            btnSave.Enabled = isAdmin;
+            btnDelete.Enabled = isAdmin;
+            btnSave.Enabled = isAdmin;
+            
+        }
         public Form4()
         {
             InitializeComponent();
@@ -72,6 +83,11 @@ namespace Mathari_Level_5_Hospital
             {
                 MessageBox.Show("No matching record found!");
             }
+        }
+
+        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

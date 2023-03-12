@@ -12,6 +12,17 @@ namespace Mathari_Level_5_Hospital
 {
     public partial class Form7 : Form
     {
+        private bool isAdmin;
+
+        public Form7(bool isAdmin)
+        {
+            InitializeComponent();
+            this.isAdmin = isAdmin;
+            btnSave.Enabled = isAdmin;
+            btnDelete.Enabled = isAdmin;
+            btnSave.Enabled = isAdmin;
+
+        }
         public Form7()
         {
             InitializeComponent();
