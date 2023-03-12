@@ -53,7 +53,7 @@
             this.iDTextBox = new System.Windows.Forms.TextBox();
             this.room_NameTextBox = new System.Windows.Forms.TextBox();
             this.capacityTextBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.rooms_TableDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -281,13 +281,14 @@
             this.capacityTextBox.Size = new System.Drawing.Size(288, 30);
             this.capacityTextBox.TabIndex = 6;
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox1.Location = new System.Drawing.Point(90, 204);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 30);
-            this.textBox1.TabIndex = 12;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtSearch.Location = new System.Drawing.Point(90, 204);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(351, 30);
+            this.txtSearch.TabIndex = 12;
+            this.txtSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -374,7 +375,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.rooms_TableDataGridView);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(capacityLabel);
             this.Controls.Add(this.capacityTextBox);
@@ -421,7 +422,7 @@
         private System.Windows.Forms.TextBox iDTextBox;
         private System.Windows.Forms.TextBox room_NameTextBox;
         private System.Windows.Forms.TextBox capacityTextBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView rooms_TableDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;

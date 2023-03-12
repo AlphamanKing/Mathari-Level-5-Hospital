@@ -65,7 +65,7 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             iDLabel = new System.Windows.Forms.Label();
@@ -411,13 +411,14 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Search";
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox1.Location = new System.Drawing.Point(102, 361);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 26);
-            this.textBox1.TabIndex = 13;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtSearch.Location = new System.Drawing.Point(102, 361);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(260, 26);
+            this.txtSearch.TabIndex = 13;
+            this.txtSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnBack
             // 
@@ -451,7 +452,7 @@
             this.ClientSize = new System.Drawing.Size(1253, 683);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.billing_and_Accounting_TableDataGridView);
             this.Controls.Add(transaction_DateLabel);
@@ -513,7 +514,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button button1;
     }

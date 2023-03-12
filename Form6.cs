@@ -83,5 +83,35 @@ namespace Mathari_Level_5_Hospital
         {
             this.Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string searchValue = txtSearch.Text.Trim().ToLower();
+            bool found = false;
+
+            foreach (DataGridViewRow row in patient_s_TableDataGridView.Rows)
+            {
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    if (cell.Value != null && cell.Value.ToString().ToLower().Contains(searchValue))
+                    {
+                        row.DefaultCellStyle.BackColor = Color.Yellow;
+                        row.DefaultCellStyle.ForeColor = Color.Black;
+                        found = true;
+                        break;
+                    }
+                    else
+                    {
+                        row.DefaultCellStyle.BackColor = Color.White;
+                        row.DefaultCellStyle.ForeColor = Color.Black;
+                    }
+                }
+            }
+
+            if (!found)
+            {
+                MessageBox.Show("No matching record found!");
+            }
+        }
     }
 }

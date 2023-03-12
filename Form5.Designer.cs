@@ -61,7 +61,7 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             iDLabel = new System.Windows.Forms.Label();
@@ -366,12 +366,13 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Search";
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.Location = new System.Drawing.Point(118, 231);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(362, 22);
-            this.textBox1.TabIndex = 11;
+            this.txtSearch.Location = new System.Drawing.Point(118, 231);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(362, 22);
+            this.txtSearch.TabIndex = 11;
+            this.txtSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -405,7 +406,7 @@
             this.ClientSize = new System.Drawing.Size(952, 579);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.employees__TableDataGridView);
             this.Controls.Add(phoneLabel);
@@ -462,7 +463,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnBack;
     }
