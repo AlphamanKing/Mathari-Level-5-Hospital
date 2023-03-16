@@ -42,7 +42,7 @@ namespace Mathari_Level_5_Hospital
         {
             string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Mathari Level 5 Hospital.accdb";
 
-            string query = "SELECT * FROM [Login Table Details] WHERE [username] = @username AND [password] = @password";
+            string query = "SELECT * FROM [Login Table Details] WHERE [username] = ? AND [password] = ?";
 
             using (OleDbConnection connection = new OleDbConnection(connectionString))
             {
@@ -50,8 +50,8 @@ namespace Mathari_Level_5_Hospital
                 using (OleDbCommand command = new OleDbCommand(query, connection))
 
                 {
-                    command.Parameters.AddWithValue("@username", username);
-                    command.Parameters.AddWithValue("@password", password);
+                    command.Parameters.AddWithValue("?", username);
+                    command.Parameters.AddWithValue("?", password);
 
                     DataTable dt = new DataTable();
                     using (OleDbDataAdapter adapter = new OleDbDataAdapter(command))
@@ -74,6 +74,7 @@ namespace Mathari_Level_5_Hospital
                 }
             }
         }
+
 
         private void btnClose_Click(object sender, EventArgs e)
         {

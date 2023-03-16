@@ -12,16 +12,16 @@ namespace Mathari_Level_5_Hospital
 {
     public partial class Form5 : Form
     {
-        private bool isAdmin;
+        private bool isAdmin; public bool IsAdmin { get; set; }
+        
 
         public Form5(bool isAdmin)
         {
             InitializeComponent();
-            this.isAdmin = isAdmin;
-            btnAdd.Enabled = isAdmin;
-            btnDelete.Enabled = isAdmin;
-            btnAdd.Enabled = isAdmin;
-
+            this.IsAdmin = isAdmin; // use the property instead of the field
+            btnAdd.Enabled = IsAdmin;
+            btnDelete.Enabled = IsAdmin;
+            btnSave.Enabled = IsAdmin;
         }
         public Form5()
         {

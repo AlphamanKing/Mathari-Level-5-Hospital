@@ -11,17 +11,17 @@ using System.Windows.Forms;
 namespace Mathari_Level_5_Hospital
 {
     public partial class Form3 : Form
-    {
-        private bool isAdmin;
+    { private bool isAdmin; public bool IsAdmin { get; set; }
 
         public Form3(bool isAdmin)
         {
             InitializeComponent();
-            this.isAdmin = isAdmin;
-            btnAdd.Enabled = isAdmin;
-            btnDelete.Enabled = isAdmin;
-            btnSave.Enabled = isAdmin;
-            btnToolStrip.Enabled = isAdmin;
+            //this.isAdmin = isAdmin;
+            this.IsAdmin = isAdmin; // use the property instead of the field
+            btnAdd.Enabled = IsAdmin;
+            btnDelete.Enabled = IsAdmin;
+            btnSave.Enabled = IsAdmin;
+            btnToolStrip.Enabled = IsAdmin;
         }
         public Form3()
         {
