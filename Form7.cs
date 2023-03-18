@@ -26,6 +26,9 @@ namespace Mathari_Level_5_Hospital
         public Form7()
         {
             InitializeComponent();
+            btnAdd.Enabled = CurrentUser.IsAdmin;
+            btnDelete.Enabled = CurrentUser.IsAdmin;
+            btnSave.Enabled = CurrentUser.IsAdmin;
         }
 
         private void pharmacy_Management_TableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -40,6 +43,9 @@ namespace Mathari_Level_5_Hospital
         {
             // TODO: This line of code loads data into the 'mathari_Level_5_HospitalDataSet.Pharmacy_Management_Table' table. You can move, or remove it, as needed.
             this.pharmacy_Management_TableTableAdapter.Fill(this.mathari_Level_5_HospitalDataSet.Pharmacy_Management_Table);
+            btnAdd.Enabled = CurrentUser.IsAdmin;
+            btnDelete.Enabled = CurrentUser.IsAdmin;
+            btnSave.Enabled = CurrentUser.IsAdmin;
 
         }
 

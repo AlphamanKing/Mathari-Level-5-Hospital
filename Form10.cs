@@ -25,6 +25,9 @@ namespace Mathari_Level_5_Hospital
         public Form10()
         {
             InitializeComponent();
+            btnAdd.Enabled = CurrentUser.IsAdmin;
+            btnDelete.Enabled = CurrentUser.IsAdmin;
+            btnSave.Enabled = CurrentUser.IsAdmin;
         }
 
         private void wards_TableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -39,6 +42,9 @@ namespace Mathari_Level_5_Hospital
         {
             // TODO: This line of code loads data into the 'mathari_Level_5_HospitalDataSet.Wards_Table' table. You can move, or remove it, as needed.
             this.wards_TableTableAdapter.Fill(this.mathari_Level_5_HospitalDataSet.Wards_Table);
+            btnAdd.Enabled = CurrentUser.IsAdmin;
+            btnDelete.Enabled = CurrentUser.IsAdmin;
+            btnSave.Enabled = CurrentUser.IsAdmin;
 
         }
 

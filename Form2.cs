@@ -25,55 +25,22 @@ namespace Mathari_Level_5_Hospital
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            bool isAdmin;
-            if (IsValidUser(username, password, out isAdmin))
+            if (AuthenticationManager.AuthenticateUser(username, password))
             {
-                MainForm mainForm = new MainForm(isAdmin);
+                MessageBox.Show("Login successful!");
+
+                // Open main form and close login form
+                MainForm mainForm = new MainForm();
                 mainForm.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Invalid username or password. Please try again.");
             }
         }
 
-        private bool IsValidUser(string username, string password, out bool isAdmin)
-        {
-            string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Mathari Level 5 Hospital.accdb";
-
-            string query = "SELECT * FROM [Login Table Details] WHERE [username] = ? AND [password] = ?";
-
-            using (OleDbConnection connection = new OleDbConnection(connectionString))
-            {
-                connection.Open();
-                using (OleDbCommand command = new OleDbCommand(query, connection))
-
-                {
-                    command.Parameters.AddWithValue("?", username);
-                    command.Parameters.AddWithValue("?", password);
-
-                    DataTable dt = new DataTable();
-                    using (OleDbDataAdapter adapter = new OleDbDataAdapter(command))
-
-                    {
-                        adapter.Fill(dt);
-                    }
-
-                    if (dt.Rows.Count > 0 && dt.Rows[0]["isAdmin"].ToString().Equals("Yes", StringComparison.OrdinalIgnoreCase))
-                    {
-                        isAdmin = true;
-                    }
-                    else
-                    {
-                        isAdmin = false;
-                    }
-
-
-                    return dt.Rows.Count > 0;
-                }
-            }
-        }
+        
 
 
         private void btnClose_Click(object sender, EventArgs e)

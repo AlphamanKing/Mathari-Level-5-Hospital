@@ -12,21 +12,24 @@ namespace Mathari_Level_5_Hospital
 {
     public partial class Form4 : Form
     {
-        private bool isAdmin; public bool IsAdmin { get; set; }
+        private bool isAdmin = false;
+        public static bool IsAdmin { get; set; }
 
         public Form4(bool isAdmin)
         {
             InitializeComponent();
-            //this.isAdmin = isAdmin;
-            this.IsAdmin = isAdmin; // use the property instead of the field
-            btnAdd.Enabled = IsAdmin;
-            btnDelete.Enabled = IsAdmin;
-            btnSave.Enabled = IsAdmin;
+            this.isAdmin = isAdmin;
+            btnAdd.Enabled = isAdmin;
+            btnDelete.Enabled = isAdmin;
+            btnSave.Enabled = isAdmin;
 
         }
         public Form4()
         {
             InitializeComponent();
+            btnAdd.Enabled = isAdmin || CurrentUser.IsAdmin;
+            btnDelete.Enabled = isAdmin || CurrentUser.IsAdmin;
+            btnSave.Enabled = isAdmin || CurrentUser.IsAdmin;
         }
 
         private void departments_TableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -41,6 +44,9 @@ namespace Mathari_Level_5_Hospital
         {
             // TODO: This line of code loads data into the 'mathari_Level_5_HospitalDataSet.Departments_Table' table. You can move, or remove it, as needed.
             this.departments_TableTableAdapter.Fill(this.mathari_Level_5_HospitalDataSet.Departments_Table);
+            btnAdd.Enabled = CurrentUser.IsAdmin;
+            btnDelete.Enabled = CurrentUser.IsAdmin;
+            btnSave.Enabled = CurrentUser.IsAdmin;
 
         }
 
