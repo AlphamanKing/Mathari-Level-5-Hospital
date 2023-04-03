@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FastReport;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -95,6 +96,18 @@ namespace Mathari_Level_5_Hospital
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnGenerateReport_Click(object sender, EventArgs e)
+        {
+            // create a report object
+            Report report = new Report();
+
+            // load the report template from file
+            report.Load("Reports\\Departments Report.frx");
+
+            // show the report preview
+            report.Show();
         }
     }
 }

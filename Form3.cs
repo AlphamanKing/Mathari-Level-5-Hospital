@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FastReport;
 
 namespace Mathari_Level_5_Hospital
 {
@@ -107,6 +109,18 @@ namespace Mathari_Level_5_Hospital
             {
                 MessageBox.Show("No matching record found!");
             }
+        }
+
+        private void btnGenerateReport_Click(object sender, EventArgs e)
+        {
+            // create a report object
+            Report report = new Report();
+
+            // load the report template from file
+            report.Load("Reports\\Billing and Accounting Report.frx");
+
+            // show the report preview
+            report.Show();
         }
     }
 }
