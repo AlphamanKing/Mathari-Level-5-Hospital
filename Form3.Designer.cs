@@ -485,6 +485,7 @@
             this.MaximumSize = new System.Drawing.Size(1271, 730);
             this.MinimumSize = new System.Drawing.Size(1271, 730);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Billing and Accounting";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mathari_Level_5_HospitalDataSet)).EndInit();

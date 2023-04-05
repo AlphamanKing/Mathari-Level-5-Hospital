@@ -436,6 +436,7 @@
             this.MaximumSize = new System.Drawing.Size(970, 626);
             this.MinimumSize = new System.Drawing.Size(970, 626);
             this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Details";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mathari_Level_5_HospitalDataSet)).EndInit();

@@ -614,6 +614,7 @@
             this.MaximumSize = new System.Drawing.Size(1404, 678);
             this.MinimumSize = new System.Drawing.Size(1404, 678);
             this.Name = "Form6";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Patients\' Details";
             this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mathari_Level_5_HospitalDataSet)).EndInit();

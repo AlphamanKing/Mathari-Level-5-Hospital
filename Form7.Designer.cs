@@ -436,6 +436,7 @@
             this.MaximumSize = new System.Drawing.Size(1087, 643);
             this.MinimumSize = new System.Drawing.Size(1087, 643);
             this.Name = "Form7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pharmacy Management";
             this.Load += new System.EventHandler(this.Form7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mathari_Level_5_HospitalDataSet)).EndInit();

@@ -315,6 +315,7 @@
             this.MaximumSize = new System.Drawing.Size(959, 721);
             this.MinimumSize = new System.Drawing.Size(959, 721);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Form";
             this.Load += new System.EventHandler(this.Form11_Load);
             this.ResumeLayout(false);

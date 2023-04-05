@@ -471,6 +471,7 @@
             this.MaximumSize = new System.Drawing.Size(1138, 679);
             this.MinimumSize = new System.Drawing.Size(1138, 679);
             this.Name = "Form9";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Supply Chain Management";
             this.Load += new System.EventHandler(this.Form9_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mathari_Level_5_HospitalDataSet)).EndInit();

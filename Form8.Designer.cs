@@ -402,6 +402,7 @@
             this.MaximumSize = new System.Drawing.Size(905, 615);
             this.MinimumSize = new System.Drawing.Size(905, 615);
             this.Name = "Form8";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Our Rooms";
             this.Load += new System.EventHandler(this.Form8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mathari_Level_5_HospitalDataSet)).EndInit();
