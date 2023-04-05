@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FastReport;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -92,6 +93,18 @@ namespace Mathari_Level_5_Hospital
             {
                 MessageBox.Show("No matching record found!");
             }
+        }
+
+        private void btnGenerateReport_Click(object sender, EventArgs e)
+        {
+            // create a report object
+            Report report = new Report();
+
+            // load the report template from file
+            report.Load("Reports\\Supply Chain Management Report.frx");
+
+            // show the report preview
+            report.Show();
         }
     }
 }
