@@ -433,6 +433,7 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.employees__TableBindingNavigator);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(970, 626);
             this.MinimumSize = new System.Drawing.Size(970, 626);
             this.Name = "Form5";

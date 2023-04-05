@@ -400,6 +400,7 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.departments_TableBindingNavigator);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(888, 605);
             this.MinimumSize = new System.Drawing.Size(888, 605);
             this.Name = "Form4";

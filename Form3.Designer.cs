@@ -481,7 +481,8 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.billing_and_Accounting_TableBindingNavigator);
-            this.ForeColor = System.Drawing.Color.Red;
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1271, 730);
             this.MinimumSize = new System.Drawing.Size(1271, 730);
             this.Name = "Form3";

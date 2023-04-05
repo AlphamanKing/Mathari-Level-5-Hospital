@@ -399,6 +399,7 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.rooms_TableBindingNavigator);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(905, 615);
             this.MinimumSize = new System.Drawing.Size(905, 615);
             this.Name = "Form8";

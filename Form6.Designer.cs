@@ -611,6 +611,7 @@
             this.Controls.Add(iDLabel);
             this.Controls.Add(this.iDTextBox);
             this.Controls.Add(this.patient_s_TableBindingNavigator);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1404, 678);
             this.MinimumSize = new System.Drawing.Size(1404, 678);
             this.Name = "Form6";
