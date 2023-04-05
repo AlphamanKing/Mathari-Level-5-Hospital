@@ -189,7 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mathari Level 5 Hospital.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

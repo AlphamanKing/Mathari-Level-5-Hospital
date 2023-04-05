@@ -37,6 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.login_image = new System.Windows.Forms.PictureBox();
+            this.btnCreateNewAccount = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.login_image)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             // 
             this.btnClose.BackColor = System.Drawing.Color.Cornsilk;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnClose.Location = new System.Drawing.Point(273, 545);
+            this.btnClose.Location = new System.Drawing.Point(355, 538);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(134, 36);
@@ -68,7 +69,7 @@
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Cornsilk;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnLogin.Location = new System.Drawing.Point(452, 545);
+            this.btnLogin.Location = new System.Drawing.Point(534, 538);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(134, 36);
@@ -128,12 +129,26 @@
             this.login_image.TabIndex = 15;
             this.login_image.TabStop = false;
             // 
+            // btnCreateNewAccount
+            // 
+            this.btnCreateNewAccount.BackColor = System.Drawing.Color.Cornsilk;
+            this.btnCreateNewAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnCreateNewAccount.Location = new System.Drawing.Point(87, 533);
+            this.btnCreateNewAccount.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCreateNewAccount.Name = "btnCreateNewAccount";
+            this.btnCreateNewAccount.Size = new System.Drawing.Size(222, 46);
+            this.btnCreateNewAccount.TabIndex = 16;
+            this.btnCreateNewAccount.Text = "Create New Account";
+            this.btnCreateNewAccount.UseVisualStyleBackColor = false;
+            this.btnCreateNewAccount.Click += new System.EventHandler(this.btnCreateNewAccount_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(923, 624);
+            this.Controls.Add(this.btnCreateNewAccount);
             this.Controls.Add(this.login_image);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label3);
@@ -164,5 +179,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox login_image;
+        private System.Windows.Forms.Button btnCreateNewAccount;
     }
 }
