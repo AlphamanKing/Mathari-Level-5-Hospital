@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathari Level 5 Hospital", "Mathari Level 5 Hospital.csproj", "{9ACB0175-8E25-4EA9-8591-B425BEABFCA8}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Mathari Level 5 Hospital Management System", "..\Mathari Level 5 Hospital Management System\Mathari Level 5 Hospital Management System.vdproj", "{6B00C49A-0268-49EB-8098-F93417C7E3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{323EBFC6-7779-4E21-86EA-EABD98D57CB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,9 @@ Global
 		{9ACB0175-8E25-4EA9-8591-B425BEABFCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ACB0175-8E25-4EA9-8591-B425BEABFCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ACB0175-8E25-4EA9-8591-B425BEABFCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B00C49A-0268-49EB-8098-F93417C7E3C9}.Debug|Any CPU.ActiveCfg = Debug
+		{6B00C49A-0268-49EB-8098-F93417C7E3C9}.Debug|Any CPU.Build.0 = Debug
+		{6B00C49A-0268-49EB-8098-F93417C7E3C9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
